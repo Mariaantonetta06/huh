@@ -1,0 +1,71 @@
+/* CSS (styles.css) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header-image {
+    width: 90%;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-item {
+    text-align: center;
+    color: white;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-item p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* Location Button Grid */
+.location-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.location-grid button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.location-grid button:hover {
+    background-color: #555;
+    color: white;
+}
